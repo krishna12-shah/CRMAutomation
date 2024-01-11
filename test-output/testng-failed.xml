@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRM Application]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="5" name="CRM App Test Cases(failed)" verbose="10">
+    <classes>
+      <class name="com.crm.qa.testcaes.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcaes.LoginPageTest -->
+    </classes>
+  </test> <!-- CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [CRM Application] -->
